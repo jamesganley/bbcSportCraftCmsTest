@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 095a1efa-d7a8-4d8e-8de6-ec40a02e25e0 # Common
+handle: teamEntry
+instructions: ''
+name: 'Team Entry'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: ''
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:970dc274-31d8-4bca-b8a1-51de8c681672' # Teams
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

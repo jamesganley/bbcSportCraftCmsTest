@@ -1,0 +1,14 @@
+columnSuffix: mrmfpcbt
+contentColumnType: time
+fieldGroup: 358ccbfe-1443-4d13-bee7-7b4a04571850 # fixture
+handle: kickOff
+instructions: ''
+name: 'kick Off'
+searchable: true
+settings:
+  max: null
+  min: null
+  minuteIncrement: 60
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Time

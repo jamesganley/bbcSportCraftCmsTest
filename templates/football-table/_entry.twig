@@ -1,0 +1,38 @@
+{% extends "_layouts/index" %}
+
+{% block main %}
+    {% set tables = craft.entries.section('footballTable').limit(1).all() %}
+    {% for table in tables %}
+        <table id="indexTable">
+            <a href="{{ table.url }}">{{ table.title }}</a>
+            <tr>
+                <th>Team Name</th>
+                <th>Played</th>
+                <th>Won</th>
+                <th>Drawn</th>
+                <th>Lost</th>
+            </tr>
+            {% for column in table.footballTable%}
+                <tr>
+                    <td>
+                        {{ column.teamName }}
+                    </td>
+                    <td>
+                        {{ column.played }}
+                    </td>
+                    <td>
+                        {{ column.won }}
+                    </td>
+                    <td>
+                        {{ column.drawn }}
+                    </td>
+                    <td>
+                        {{ column.lost }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endfor %}
+{% endblock %}
+
+

@@ -1,0 +1,32 @@
+columnSuffix: ezndgunx
+contentColumnType: string
+fieldGroup: 341c014b-4fc0-4338-b494-5d300140454e # news
+handle: newsImage
+instructions: ''
+name: 'News Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:26dfb28a-4032-4332-9734-a35f2df30b6c' # newsImage
+  defaultUploadLocationSubpath: ''
+  limit: ''
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: ''
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:26dfb28a-4032-4332-9734-a35f2df30b6c' # newsImage
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: footballFixture
+name: 'Football Fixture'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  90d3f773-6c0f-4846-8174-c9c2a3d5ff2d: # football
+    enabledByDefault: true
+    hasUrls: true
+    template: football-fixture/_entry
+    uriFormat: 'football-fixture/{slug}'
+type: channel

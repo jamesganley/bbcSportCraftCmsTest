@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 358ccbfe-1443-4d13-bee7-7b4a04571850 # fixture
+handle: homeTeam
+instructions: ''
+name: 'Home team'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: 'Add a team'
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:970dc274-31d8-4bca-b8a1-51de8c681672' # Teams
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

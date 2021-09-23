@@ -1,0 +1,19 @@
+{% extends "_layouts/index" %}
+
+{% block main %}
+
+    <div class="flex-container two">
+        <div class="art">
+            <div class="title"><h1>{{ entry.title }}</h1></div>
+            <div class="teamName"><h5>{{ entry.teamName }}</h5></div>
+            <div class="newsSub"><h5>{{ entry.newsSub }}</h5></div>
+            <div class="newsBullet"><li>{{ entry.newsBullet }}</li></div>
+            <div class="newsImage"><img src="{{ entry.newsImage.one().getUrl({ transform:'jumboimg'}) }}"></div>
+            <div class="newsCopy"><P>{{ entry.newsCopy }}</P></div>
+            <div class="newsLinks"><a href="{{ entry.newsLinks }}">{{ entry.newsLinks }}</a></div>
+        </div>
+    </div>
+
+
+{% endblock %}
+

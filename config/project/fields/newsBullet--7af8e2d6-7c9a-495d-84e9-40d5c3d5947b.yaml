@@ -1,0 +1,19 @@
+columnSuffix: wlzhqpzp
+contentColumnType: text
+fieldGroup: 341c014b-4fc0-4338-b494-5d300140454e # news
+handle: newsBullet
+instructions: ''
+name: 'News Bullet'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

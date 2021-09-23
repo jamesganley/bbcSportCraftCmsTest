@@ -1,0 +1,17 @@
+columnSuffix: gdvnwiln
+contentColumnType: datetime
+fieldGroup: 358ccbfe-1443-4d13-bee7-7b4a04571850 # fixture
+handle: date
+instructions: ''
+name: date
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

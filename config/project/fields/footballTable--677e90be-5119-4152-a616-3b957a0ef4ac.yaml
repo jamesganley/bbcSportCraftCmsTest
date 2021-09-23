@@ -1,0 +1,97 @@
+columnSuffix: flzewxfz
+contentColumnType: text
+fieldGroup: 391fc478-cf3c-4bfd-a563-833a44df84e3 # footballTable
+handle: footballTable
+instructions: ''
+name: 'football Table'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Team Name'
+            -
+              - handle
+              - teamName
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Played
+            -
+              - handle
+              - played
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - Won
+            -
+              - handle
+              - won
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - Drawn
+            -
+              - handle
+              - drawn
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - Lost
+            -
+              - handle
+              - lost
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+  maxRows: ''
+  minRows: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

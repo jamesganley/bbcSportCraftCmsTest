@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-GB
+name: football
+primary: true
+siteGroup: 601f5e1d-6531-46ef-9cd8-41529ce1248e # football
+sortOrder: 1

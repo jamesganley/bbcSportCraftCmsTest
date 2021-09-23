@@ -1,0 +1,63 @@
+dateModified: 1632236293
+email:
+  fromEmail: james.ganley@realresponsemedia.com
+  fromName: football
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2ade8471-fe4d-4c34-bfb6-a1e7d1d0e273: 'Home team' # Home team
+    3e578c5e-5132-4980-b786-56613c4f79dc: icon # icon
+    7af8e2d6-7c9a-495d-84e9-40d5c3d5947b: 'News Bullet' # News Bullet
+    9a077c98-e590-4c46-ac5a-df199bddb064: 'Away team' # Away team
+    12d5f91d-bfc7-42d0-a645-380cb49ccccc: 'Team Entry' # Team Entry
+    26dfb28a-4032-4332-9734-a35f2df30b6c: newsImage # newsImage
+    27d50cb0-e8c8-48db-bdf8-ac829b620eb1: 'Team name' # Team name
+    30e059f9-2168-477c-bf8e-d1fdb6258b40: 'News Image' # News Image
+    63cecc5b-c36e-41d1-a452-349e253aa4b0: footballTable # footballTable
+    90d3f773-6c0f-4846-8174-c9c2a3d5ff2d: football # football
+    095a1efa-d7a8-4d8e-8de6-ec40a02e25e0: Common # Common
+    128e8662-cc52-4cf0-b6e7-db0f7fb0d8ed: Default # Default
+    237d5e7e-edcc-45a5-b74f-1e013d08ab87: 'Football Table' # Football Table
+    341c014b-4fc0-4338-b494-5d300140454e: news # news
+    358ccbfe-1443-4d13-bee7-7b4a04571850: fixture # fixture
+    391fc478-cf3c-4bfd-a563-833a44df84e3: footballTable # footballTable
+    420ccc7f-e526-4144-a924-fe804b4104e7: news # news
+    601f5e1d-6531-46ef-9cd8-41529ce1248e: football # football
+    673e67fd-ac73-4a60-9405-fc7610c96e0e: jumboImg # jumboImg
+    677e90be-5119-4152-a616-3b957a0ef4ac: 'football Table' # football Table
+    970dc274-31d8-4bca-b8a1-51de8c681672: Teams # Teams
+    5420ab51-f94c-443e-9ef0-03bfe449ae59: Default # Default
+    8758f7ed-bc95-41e7-9d5b-d7a03ddc22f9: 'News Links' # News Links
+    20334c43-fa3d-47bc-a6b4-3ebe0b86aa01: 'Winning team' # Winning team
+    54299fe5-d0d2-48c1-bd91-3617253b7251: 'Match result' # Match result
+    74391c05-984b-4eb7-a608-195def4b172b: 'Football Fixture' # Football Fixture
+    2742272b-5bca-4dec-bc9d-c5dec5a1f184: 'kick Off' # kick Off
+    36881957-2e12-42f1-931d-5329342fa470: Default # Default
+    aa7c27bc-545b-4be4-8101-9e81cfb27752: League # League
+    ad53de70-650e-4d78-a243-6db6e1a2d2b4: date # date
+    bf8aa6ae-7cd6-4d1a-97dc-570bc2b25fcc: 'Football Fixture' # Football Fixture
+    da2d9da1-4fd1-4b83-96b6-c37110cbb023: 'home Or Away' # home Or Away
+    e268a565-ed96-435b-984b-c383d6deeeb0: 'News Sub' # News Sub
+    fa873aa5-1492-42c0-b35a-cc911dfca373: 'News Copy' # News Copy
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  templatecomments:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: pro
+  live: true
+  name: football
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: UTC
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

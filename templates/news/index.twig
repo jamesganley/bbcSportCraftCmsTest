@@ -1,0 +1,18 @@
+{% extends "_layouts/index" %}
+
+{% block main %}
+
+    <h1>These is our top Stroies</h1>
+    <div class="flex-container">
+    {% set frontStories = craft.entries.section('news').limit(100).all() %}
+    {% for frontStory in frontStories %}
+        <div class="ns news-item{% if loop.first %} first{% endif %}">
+            <img src="{{ frontStory.newsImage.one().getUrl({ transform:'icon'}) }}">
+            <div ><a href="{{ frontStory.url }}">{{ frontStory.title }}</a></div>
+        </div>
+
+    {% endfor %}
+    </div>
+{% endblock %}
+
+

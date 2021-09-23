@@ -1,0 +1,46 @@
+columnSuffix: gppphqfo
+contentColumnType: string
+fieldGroup: 358ccbfe-1443-4d13-bee7-7b4a04571850 # fixture
+handle: matchResult
+instructions: ''
+name: 'Match result'
+searchable: false
+settings:
+  optgroups: true
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Win
+        -
+          - value
+          - win
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Lose
+        -
+          - value
+          - lose
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Draw
+        -
+          - value
+          - draw
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
